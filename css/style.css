@@ -1,0 +1,326 @@
+
+.page-title h3{
+	color: white;
+}
+.wraper{
+	position: absolute;
+	top: 0;
+	width: 100%;
+		background-color: rgba(20, 55, 80, 0.6);
+}
+.header{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.logo{
+	float: left;
+}
+.title h3{
+	font-family:"AvenirLTStd-Book" !important;
+	font-size: 44px;
+	display: inline-block;
+	float: right;
+	padding-right: 94px;
+	color: rgb(255, 255, 255);
+}
+.zp{
+	padding: 0px !important;
+}
+.tile{
+	display: inline-block;
+	float: left;
+	margin: 0px 60px 60px 0px;
+	-webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+.tile:hover{
+	-webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+}
+.tile .icon img{
+	height: 145px;
+	width: 145px;
+}
+.tile .text{
+	 font-family:"Brandon Grot W01 Light" !important;
+	font-size: 20px;
+	text-shadow: rgba(0, 0, 0, 0.298039) 0px 5px 0px;
+	text-align: center;
+	padding-top: 8px;
+	color: rgb(255, 255, 255);
+}
+#video-background {
+  position: fixed;
+  top: -0px;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -100;
+}
+.footer{
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    background: rgba(82, 16, 18, 0.75);
+    -webkit-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+}
+.footer-text{
+	padding-top: 10px;
+	color: white;
+	/*font-weight: regular;*/
+	font-size: 20px;
+}
+.help-line{
+	float: left;
+}
+.copy-right{
+	display: inline-block;
+	float: right;
+	padding-right: 94px;
+}
+@media screen and (max-width: 320px) {
+	.logo{
+		padding-left: 0px !important;
+	}
+	.title h3{
+		padding-left: 30px !important;
+	}
+	.tile{
+		margin-left: 50px !important;
+	}
+}
+@media screen and (max-width: 375px) {
+	.tile{
+		margin-left: 70px !important;
+	}
+	.title h3{
+		width: 400px;
+	}
+}
+@media screen and (max-width: 414px) {
+	.logo{
+		padding-left: 20px;
+	}
+	.title h3{
+		font-size: 30px;
+		padding-left: 60px;
+	}
+}
+@media screen and (max-width: 480px) {
+	.tile{
+		margin-left: 90px;
+	}
+	.title h3{
+		float: left;
+		clear: both;
+	}
+}
+@media screen and (max-width: 560px) {
+	 .footer{
+		height: 50px;
+		text-align: center;
+	}
+	.footer-text{
+		float: none;
+		margin-top: -7px;
+		margin-bottom: -7px !important;
+	}
+	.copy-right{
+		padding-top: 0px;
+		padding-left: 60px;
+		float: none;
+	}
+}
+@media screen and (max-width: 670px) {
+	.help-line{
+		padding-left: 0px !important;
+		font-size: 12px !important;
+		padding-top: 15px !important;
+	}
+	.copy-right{
+		font-size: 12px !important;;
+		padding-top: 15px !important;
+	}
+}
+@media screen and (max-width: 680px) {
+	.help-line{
+		padding-left: 60px;
+		font-size: 16px;
+	}
+	.copy-right{
+		font-size: 16px;
+	}
+}
+@media screen and (max-width: 699px) {
+	.title h3{
+		float: left;
+		clear: both;
+	}
+}
+@media screen and (max-height: 768px) {
+	.help-line{
+		padding-left: 60px;
+		font-size: 16px;
+	}
+	.copy-right{
+		font-size: 16px;
+	}
+}
+@media screen and (max-height: 1200px) {
+	.wraper{
+		min-height: 1160px;
+	}
+}
+@media screen and (min-width: 1366px) {
+	.wraper{
+		min-width: 1349px;
+	}
+}
+@media screen and (max-width: 1920px) {
+	.wraper{
+		min-height: 1040px;
+	}
+}
+@media screen and (min-width: 2560px) {
+	.wraper{
+		min-height: 1560px;
+	}
+}
+@media screen and (min-width: 2880px) {
+	.wraper{
+		min-height: 1760px;
+	}
+}
+/*start of login form*/
+.login-form {
+  margin: auto;
+  width: 375px;
+  /*border-radius: 50px;*/
+  visibility: visible;
+  transition: all 250ms ease-out;
+  z-index: 100;
+}
+
+.login-title {
+  background: rgba(49, 60, 67, 0.85);
+  height: 90px;
+  /*border-top-left-radius: 50px;*/
+  /*border-top-right-radius: 50px;*/
+}
+.login-title h3{
+  font-family:"MyriadPro-Regular";
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding-top: 30px;
+}
+.login-form .inputWrapper input {
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  margin-top: 10%;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  opacity: 1;
+  font-size: 16px;
+  padding: 20px 30px;
+}
+.login-form .inputWrapper {
+  position: relative;
+  width: 100%;
+  background: rgba(38, 67, 73, 0.85);
+  /*height: 280px;*/
+  /*border-bottom-left-radius: 50px;*/
+  /*border-bottom-right-radius: 50px;*/
+}
+.user-icon {
+  position: absolute;
+  color: #02427F;
+  margin-top: 38px;
+  margin-left: 40.5px;
+}
+.user-icon .img-username{
+	margin-top: 11px;
+}
+.user-icon .img-password{
+	margin-top: 8px;
+}
+.username, .password {
+  width: 80%;
+  height: 30px;
+  padding: .25em 0 .25em .25em;
+  margin-left: 10%;
+}
+.login-form .inputWrapper input[placeholder] {
+  cursor: arrow;
+}
+.error-message{
+	text-align: center;
+	margin-top: 9px;
+	color: white;
+	margin-bottom: -20px;
+}
+.login-form .inputWrapper .btn {
+  cursor: pointer;
+  line-height: 25px;
+  font-size: 16px;
+  color: white;
+  background-color: #495c67;
+  border: none;
+  margin-top: 40px;
+  margin-left: 23%;
+  margin-bottom: 5px;
+  opacity: 1;
+  transition: opacity 250ms;
+  width: 50%;
+  padding: 10px 0px;
+  border-radius: 10px;
+}
+.login-form .inputWrapper .btn:hover{
+  color: white;
+  opacity: 0.7;
+}
+@media screen and (max-width: 768px) {
+	.login-form {
+	  left: 30%;
+	  top: 20%;
+
+	}
+}
+@media screen and (max-width: 550px) {
+	.login-form {
+	  left: 20%;
+	  top: 25%;
+	  width: 350px;
+	}
+}
+@media screen and (max-width: 450px) {
+	.login-form {
+	  left: 10%;
+	  width: 350px;
+	}
+}
+@media screen and (max-width: 400px) {
+	.login-form {
+	  left: 7%;
+	  width: 340px;
+	}
+}
+@media screen and (max-width: 375px) {
+	.login-form {
+	  left: 4%;
+	  top: 25%;
+	  width: 340px;
+	}
+}
+
+
+
